@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*fonts*/
+@import url(../../fonts/fonts.css);
+body {
+  width: 1910px;
+  letter-spacing: 0.085em;
+  font-family: 'SFUI-Display';
+  font-weight: normal;
+  padding-top: 100px; }
+
+.normal {
+  font-family: "SFUI-Display-Regular";
+  font-weight: normal; }
+
+.not-normal {
+  font-family: "SFUI-Display";
+  font-weight: normal; }
+
+.bold {
+  font-weight: bold; }
+
+.thin {
+  font-weight: thin; }
+

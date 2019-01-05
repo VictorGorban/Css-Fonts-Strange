@@ -1,0 +1,272 @@
+﻿/*fonts*/
+@import "../../fonts/fonts.css";
+
+body {
+  background: green url(../../img/bgall-min.png) no-repeat;
+  width: 1910px;
+  letter-spacing: 0.085em;
+  font-family: 'SFUI-Display';
+  font-weight: normal;
+  padding-top: 100px;
+}
+
+.normal{
+  font-family: "SFUI-Display-Regular";
+  font-weight: normal;
+}
+
+.not-normal{
+  font-family: "SFUI-Display";
+  font-weight: normal;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.thin{
+  font-weight: thin;
+}
+
+
+
+article {
+  width: 700px;
+}
+
+._uppercase {
+  text-transform: uppercase;
+}
+
+/*.button_rectangle {}
+
+.button_circle {}
+
+.button_anchor {
+  //по центру, margin-top = -половина_высоты
+}*/
+
+// Короче, врапперы нужны. Не понимаю я еще БЭМ.
+.wrapper-nav-top {
+  width: 100%;
+  background-color: #222222;
+  height: 65px;
+  opacity: 0.7;
+}
+
+.nav-top {
+  color: #ffffff;
+
+  width: 1137px;
+  margin-left: 410px;
+  display: flex;
+  justify-content: space-between;
+
+  &__owner-name {
+    font-size: 19px;
+    margin-top: 15px;
+    font-family: 'SFUI-Display-Regular';
+    font-weight: normal;
+    letter-spacing: 1.61px;
+
+    &::before {
+      font-family: "FontAwesome";
+      font-size: 30px;
+      content: "\f16d";
+      position: relative;
+      bottom: -5px;
+
+      margin-right: 13px;
+    }
+  }
+
+  &__owner-phone {
+    font-size: 18px;
+    margin-top: 21px;
+    font-family: 'SFUI-Text-Regular';
+
+
+    &::before {
+      color: #ffffff;
+      font-family: "FontAwesome";
+      font-size: 20px;
+
+      content: "\f095  ";
+    }
+  }
+
+  &__list {
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-items: center;
+    font-family: 'SFUI-Text-Regular';
+    margin-left: -95px;
+    margin-top: 21px;
+    letter-spacing: 1.53px;
+  }
+
+  &__list-item {
+    font-size: 18px;
+    display: block;
+
+    // &:not(:nth-child(1)){
+    //     margin-left: 47px;
+    //     letter-spacing: 1.73px;
+    //   }
+    
+
+    &::after {
+      font-family: "FontAwesome";
+      font-size: 20px;
+      font-weight: bold;
+      content: "\f107";
+      margin-left: 3px;
+    }
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: #9f9f9f;
+
+      &::after {
+        font-family: "FontAwesome";
+        font-size: 20px;
+        font-weight: bold;
+        content: "  \f105";
+      }
+    }
+
+    &_active {
+      color: #9f9f9f;
+
+      &::after {
+        font-family: "FontAwesome";
+        font-size: 20px;
+        font-weight: bold;
+        content: "  \f105";
+        bottom: -5px;
+      }
+    }
+
+
+  }
+
+  /*.header {
+    &__title {
+      color: #ffffff;
+      font-family: "SFUI Display";
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    &__text {
+      color: #ffffff;
+      font-family: "SFUI Display - Thin";
+      font-size: 45px;
+      font-weight: bold;
+    }
+  }
+
+  .section-ideal-gift {
+
+    &__title {
+      color: #000000;
+      font-family: "SFUI Display";
+      font-size: 45px;
+      font-weight: bold;
+      line-height: 60px;
+      text-transform: uppercase;
+
+      &_accent {
+        font-size: 1.65em;
+      }
+    }
+
+    &__text {
+      color: #090909;
+      font-family: "SFUI Text";
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 34px;
+
+      &_accent {
+        font-weight: bold;
+        color: black;
+      }
+    }
+
+    &__button {
+      margin-bottom: 203px;
+    }
+
+    &__image {}
+
+  }
+
+  .section-characteristic {
+
+    &__title {}
+
+    &__text {}
+
+    //flex для ul
+    &__list {
+      font-size: 18px;
+
+
+    }
+
+    &__list-item {
+
+      &::after {}
+    }
+
+    &__button {}
+
+  }
+
+  .section-beauty-and-convenience {
+
+    &__title {}
+
+    &__text {}
+
+    &__image {}
+  }
+
+  .section-status-and-success {
+    color: white;
+
+    &__title {}
+
+    &__text {}
+
+  }
+
+  .section-about-leather {
+    color: black;
+    font: 22px 'SFUI Text';
+
+    &__title {}
+
+    &__text {}
+
+    &__image {
+      &_leather-sample {}
+
+    }
+
+  }
+
+  .footer {
+    &__owner-name {}
+
+    &__owner-phone {}
+
+    &__list {}
+
+    &__list-item {}
+  }*/
+}
